@@ -1,0 +1,77 @@
+@import "../../global.scss";
+
+.container-image{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../../public/images/flamingo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-grayscale{
+    width: inherit;
+    height: inherit;
+    background: rgba(105,105,105,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-background{
+    background: transparent;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 20px 5px 5px grey;
+}
+.container-background h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 2;
+    margin-bottom: 8px;
+}
+.container-background form h2{
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 2;
+    margin-bottom: 8px;
+}
+.container-form{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.content-form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background: rgba(255,255,255,0.6);
+    box-shadow: 20px 5px 5px grey;
+    border-radius: 4px;
+    padding: 24px;
+}
+.custom-icon{
+    text-align: right;
+}
+.input-label{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin: 10px 0;
+}
+.input-label label{
+    margin-bottom: 10px;
+}
+.box-btn{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.custom-btn-submit{
+    color: #fff;
+    background: royalblue;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding-bottom: 4px;
+}
